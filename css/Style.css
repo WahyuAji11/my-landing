@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#landing-page {
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../img/bg1.jpg);
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.welcome-text {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    color: #ffff;
+    transform: scale(.8);
+}
+
+ul.nav {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+    text-align: right;
+    display: i;
+}
+
+li.icon-dekstop {
+    padding: 0;
+    width: 99px;
+    margin: 0.3em 1em;
+    float: left;
+}
+
+li.icon-dekstop img {
+    display: inline-block;
+    position: relative;
+    width: 35px;
+    margin-top: 1px;
+    margin-left: 3px;
+    margin-right: 56px;
+}
+
+.nav>li {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+ul.nav>li>a {
+    padding: 1em 2em;
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+ul.nav>li>a:hover {
+    background-color: #004D64;
+}
+
+#aboutMe {
+    display: 2em 0;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+.intruduction {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+.intruduction>img {
+    width: 120px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 99px;
+}
+
+.perkenalan {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+.education {
+    display: inline-block;
+    margin-top: 5em;
+}
+
+.education>img {
+    width: 155px;
+    border-radius: 99px;
+}
+
+.working {
+    display: inline-block;
+    margin-top: 5em;
+}
+
+.working>img {
+    width: 155px;
+    border-radius: 99px;
+}
+
+.judul {
+    text-decoration: underline;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.kontener {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.img-portfolio {
+    max-width: 300px;
+    display: inline-block;
+    width: 90%;
+    vertical-align: middle;
+    margin: 0;
+    margin-bottom: 2em;
+}
+
+hr {
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#contact-us {
+    vertical-align: top;
+    width: 100%;
+}
+
+.kontaksaya {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.form-contact-us {
+    width: 74%;
+    text-align: center;
+    display: inline-block;
+}
+
+.inputan {
+    width: 85%;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.inputan>label {
+    display: block;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.inputan>textarea {
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+
+.kirim {
+    width: 85%;
+    margin: 1em 0;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 0;
+}
+
+.inpo {
+    float: right;
+    width: 25%;
+    padding-left: 0;
+    padding-right: 3px;
+}
+
+.icon-contact {
+    display: inline-block;
+    min-width: 300px;
+    direction: none;
+    color: #000;
+    /* display: none; */
+}
+
+.kontakikon {
+    width: 50px;
+    margin: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.non-dekstop {
+    display: none;
+}
