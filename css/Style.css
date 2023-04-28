@@ -238,3 +238,12 @@ hr {
 .non-dekstop {
     display: none;
 }
+
+footer {
+    text-align: center;
+    background-color: #000;
+    margin-top: 2em;
+    color: #ffff;
+    padding: 1.5em 0;
+    display: block;
+}
