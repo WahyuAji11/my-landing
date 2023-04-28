@@ -39,14 +39,14 @@ ul.nav {
     display: i;
 }
 
-li.icon-dekstop {
+li.icon.dekstop {
     padding: 0;
     width: 99px;
     margin: 0.3em 1em;
     float: left;
 }
 
-li.icon-dekstop img {
+li.icon.dekstop img {
     display: inline-block;
     position: relative;
     width: 35px;
@@ -197,6 +197,12 @@ hr {
     text-align: left;
 }
 
+input {
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+
 .inputan>textarea {
     width: 100%;
     margin: 0.5em 0;
@@ -215,13 +221,19 @@ hr {
 
 .inpo {
     float: right;
-    width: 25%;
+    width: 20%;
     padding-left: 0;
     padding-right: 3px;
 }
 
+.inpo a {
+    text-decoration: none;
+    color: #000;
+    font-size: small;
+}
+
 .icon-contact {
-    display: inline-block;
+    display: inline;
     min-width: 300px;
     direction: none;
     color: #000;
@@ -230,7 +242,14 @@ hr {
 
 .kontakikon {
     width: 50px;
-    margin: 2em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* vertical-align: middle; */
+}
+
+.kontak-dekstop {
     display: inline-block;
     vertical-align: middle;
 }
@@ -246,4 +265,40 @@ footer {
     color: #ffff;
     padding: 1.5em 0;
     display: block;
+}
+
+@media only screen and (max-width: 600px){
+
+    .icon.dekstop {
+        display: none;
+    }
+
+    ul.nav {
+       text-align: center;
+    }
+
+    .form-contact-us {
+        width: 100%;
+    }
+
+    .inpo {
+        float: none;
+        display: inline;
+        text-align: center;
+    }
+
+    .non-dekstop {
+        display: block;
+        margin: 50px auto;
+    }
+
+    .kontak-dekstop {
+        display: none;
+    }
+
+    .kontakikon {
+        width: 200px;
+        display: flex;
+        margin: auto;
+    }
 }
